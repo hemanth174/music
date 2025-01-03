@@ -1,0 +1,245 @@
+:root {
+    --primary-color: #6200ee;
+    --background-light: #ffffff;
+    --text-light: #000000;
+    --background-dark: #121212;
+    --text-dark: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--background-light);
+    color: var(--text-light);
+  }
+
+  body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  /* Style adjustments for the logo and navbar */
+.navbar-brand img {
+    height: 50px; /* Adjust height of the logo */
+    width: auto;  /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between the logo and text */
+    border-radius: 100px;
+  }
+  
+  .navbar {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .circle-img {
+    width: 200px; /* Adjust the size */
+    height: 200px; /* Adjust the size */
+    border-radius: 50%; /* This makes it a circle */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    margin-left: 500px;
+   
+    
+}
+body {
+   
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background-color: #d9f2f9;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero button {
+    background-color: #f0d29e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f7c8cc;
+    padding: 20px;
+}
+
+.grid div {
+    width: 150px;
+    height: 150px;
+}
+
+.grid .blue {
+    background-color: #0000ff;
+}
+
+.grid .light-blue {
+    background-color: #add8e6;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background-color: #d9f2f9;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero button {
+    background-color: #f0d29e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f7c8cc;
+    padding: 20px;
+}
+
+.grid div {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.grid .blue {
+    background-color: #0000ff;
+}
+
+.grid .light-blue {
+    background-color: #add8e6;
+}
+
+.grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.grid img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.carousel-inner{
+    border-radius: 50px;
+}
