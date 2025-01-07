@@ -24,8 +24,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: rgb(232, 145, 145) ;
+    color: rgb(232, 145, 145);
+   
+   
   }
 
   /* Style adjustments for the logo and navbar */
@@ -34,6 +36,7 @@
     width: auto;  /* Maintain aspect ratio */
     margin-right: 10px; /* Add spacing between the logo and text */
     border-radius: 100px;
+   
   }
   
   .navbar {
@@ -243,3 +246,60 @@ nav ul li a {
 .carousel-inner{
     border-radius: 50px;
 }
+
+  .text-section {
+    max-width: 50%;
+  }
+  .text-section h1 {
+    margin: 0;
+    font-size: 24px;
+    color:#ffffff;
+  }
+  .button {
+    margin-top: 20px;
+    background-color: #f0c27b; /* Beige color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .button:hover {
+    background-color: #e0b17a; /* Slightly darker on hover */
+  }
+  .design-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* White background for contrast */
+    border-radius: 50%; /* Makes the box circular */
+    overflow: hidden; /* Ensures the image doesn't spill out */
+    border: 2px solid #ccc; /* Optional border */
+  }
+  .design-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .heading{
+    margin-top: 10vh;
+  }
+  .img-fluid {
+    width: 200px; /* Adjust size as needed */  
+    height: 200px; /* Adjust size as needed */  
+    border-radius: 50%; /* Makes the image circular */  
+    overflow: hidden; /* Hides overflow of the image */  
+    border: 5px solid #fff; /* Optional: white border */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
+
+  }
+  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
