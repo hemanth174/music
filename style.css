@@ -12,6 +12,7 @@
     transition: background-color 0.3s, color 0.3s;
     background-color: var(--background-light);
     color: var(--text-light);
+    overflow: scroll;
   }
 
   body.dark-mode {
@@ -301,5 +302,8 @@ nav ul li a {
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+  .d-block{
+    object-fit: contain;
   }
   
